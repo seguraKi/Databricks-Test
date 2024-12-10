@@ -9,5 +9,11 @@ display(agr.limit(1))
 
 # COMMAND ----------
 
+#TEST 2 count
+total_count = agr.count()
+print("Total Rows: " + total_count)
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC
